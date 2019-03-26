@@ -4,7 +4,7 @@ import { Link } from 'react-scroll'
 class Navbar extends Component {
     render() {
         return (
-            <nav className='nav' id='navbar' style={{ position: "sticky" }}>
+            <nav className='nav' id='navbar'>
               <div className='nav-content'>
                 <ul className='nav-items'>
                   <li className='nav-item'>
