@@ -3,18 +3,18 @@ import React from 'react'
 const section = ({ title, subtitle, type, id }) => {
 
     let divClass = type
-    switch(type) {
-        case "isHome": 
+    switch (type) {
+        case "isHome":
             divClass = "section-home"
             break
         case "isAlt":
             divClass = "section-alt"
             break
-        default: 
+        default:
             divClass = "section"
     }
 
-    return(
+    return (
         <div className={divClass}>
             <div className="section-content" id={id}>
                 <h1>{title}</h1>

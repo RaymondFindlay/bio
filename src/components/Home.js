@@ -13,11 +13,11 @@ const home = () => {
         })
     }
 
-    return(
+    return (
         <div className='section-home' id='home'>
-                <h1 className='home-title'>Raymond Findlay</h1>
-                <p className='home-subtitle'>{'< Software Developer />'}</p>
-                <div className='button' onClick={goToContact}>Contact</div>
+            <h1 className='home-title'>Raymond Findlay</h1>
+            <p className='home-subtitle'>{'< Software Developer />'}</p>
+            <div className='button' onClick={goToContact}>Contact</div>
         </div>
     )
 }
