@@ -12,16 +12,10 @@ class App extends Component {
         <Navbar />
         <Home />
         <Section
-          title="Bio"
+          title="About Me"
           subtitle={strings.about.bio}
           type=""
           id="about"
-        />
-        <Section
-          title={strings.tech.title}
-          subtitle={strings.tech.content}
-          type="isAlt"
-          id="technologies"
         />
         <Section
           title="Contact"

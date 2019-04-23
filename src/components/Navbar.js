@@ -34,18 +34,6 @@ class Navbar extends Component {
             <li className='nav-item'>
               <Link
                 activeClass='active'
-                to='technologies'
-                spy={true}
-                smooth={true}
-                offset={-65}
-                duration={500}
-              >
-                TECHNOLOGIES
-                     </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                activeClass='active'
                 to='contact'
                 spy={true}
                 smooth={true}

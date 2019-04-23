@@ -1,4 +1,5 @@
 import React from 'react'
+import Bounce from 'react-reveal'
 
 const section = ({ title, subtitle, type, id }) => {
 
@@ -17,8 +18,12 @@ const section = ({ title, subtitle, type, id }) => {
     return (
         <div className={divClass}>
             <div className="section-content" id={id}>
-                <h1>{title}</h1>
-                <p>{subtitle}</p>
+                <Bounce left>
+                    <h1>{title}</h1>
+                </Bounce>
+                <Bounce right>
+                    <p>{subtitle}</p>
+                </Bounce>
             </div>
         </div>
     )

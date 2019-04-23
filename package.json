@@ -4,10 +4,12 @@
   "private": true,
   "homepage": "http://RaymondFindlay.github.io/bio",
   "dependencies": {
+    "animate.css": "^3.7.0",
     "bootstrap": "^4.3.1",
     "react": "^16.8.5",
     "react-bootstrap": "^1.0.0-beta.6",
     "react-dom": "^16.8.5",
+    "react-reveal": "^1.2.2",
     "react-scripts": "2.1.8",
     "react-scroll": "^1.7.11"
   },
